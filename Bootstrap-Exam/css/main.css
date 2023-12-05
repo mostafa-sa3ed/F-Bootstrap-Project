@@ -1,0 +1,352 @@
+
+/* start-Navbar */
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+nav .nav-link{
+    color: white;
+}
+
+/* End-Navbar */
+
+/*****************************/
+
+/* Start-Header */
+
+header{
+    height: 100vh;
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-info{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.header-info h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    ;
+}
+.header-info p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+}
+.header-info p span::after{
+    content: "|";
+    animation: 3s alternate infinite;
+    -webkit-animation: 5s alternate infinite type;
+}
+    @keyframes type {
+    5%{content: "L |";}
+    10%{content: "La |";}
+    15%{content: "Lar |";}
+    20%{content: "Larr |";}
+    25%{content: "Larry |";}
+    30%{content: "Larry  |";}
+    35%{content: "Larry D |";}
+    40%{content: "Larry Da |";}
+    45%{content: "Larry Dan |";}
+    50%{content: "Larry Dadni |";}
+    55%{content: "Larry Dadnie |";}
+    60%{content: "Larry Dadniel |";}
+    65%{content: " |";}
+    75%{content: "Developer |";}
+    85%{content: " |";}
+    95%{content: "Designer |";}
+    100%{content: " |";}
+}
+
+/* End-Header */
+
+/*****************************/
+
+/* Start-About */
+.Download:hover{
+    background-color: white;
+    color: black;
+
+}
+.Contact:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.progress-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.progress-bar p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+.progress{
+    height: 20px;
+    margin: 10px 0;
+}
+
+/* End-About */
+
+/*****************************/
+
+/* Start-Services */
+.Services{
+    background-color:#F7F7F7 ;
+}
+
+.item1{
+    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serv-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F7F7F7;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.serv-icon:hover{
+    background-color: black;
+    color: white;
+}
+.Services{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.Services h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.Services h6{
+    font-weight: bolder;
+}
+.Services p{
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* End-Services */
+
+/*****************************/
+
+/* Start-Portfolio */
+
+#Works .section-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+#Works .section-head ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+#Works .nav-link{
+    color: black;
+    
+}
+#Works .nav-item  .active span {
+    border-bottom: 3px solid black!important;
+    padding-bottom: 10px; 
+}
+
+.item-img-overlay{
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: white;
+    opacity: 0;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.item-img-overlay:hover{
+    opacity: 1;
+    margin: 1px;
+
+}
+
+/* End-Portfolio */
+
+/*****************************/
+
+/* Start-Clint*/
+
+.clients{
+    background-color:#F7F7F7;
+}
+#Clients .section-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900!important;
+}
+.author-img img{
+    width: 100px;
+    height: 100px;
+}
+.carousel-inner{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+}
+.carousel-indicators .active {
+    background-color: #869791;
+}
+
+/* End-Clint*/
+
+/*****************************/
+
+/* Start-Number */
+
+.numbers{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.numbers h3{
+    font-weight: 900;
+}
+
+/* End-Number */
+
+/*****************************/
+
+/* Start-Team */
+.team{
+    background-color: #F7F7F7;
+}
+.team .section-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900!important;
+
+}
+
+.social{
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.social:hover{
+    opacity: 1;
+    margin: 1px;
+    
+}
+.img-text{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #5B5B5B;
+    color: white;
+    padding: 30px 0;
+}
+
+/* End-Team */
+
+/*****************************/
+
+/* Start-Contact*/
+
+.contact .section-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900!important;
+}
+.contact .container{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contact input, .contact textarea{
+    background-color: #F4F4F4;
+}
+.btn-submit input{
+    background-color: black;
+    color: white;
+}
+.btn-submit input:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+} 
+.icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.icon:hover{
+    background-color: black;
+    color: white;
+}
+
+/* End-Contact*/
+
+/*****************************/
+
+/* Start-Footer */
+
+footer{
+    background-color: #1C1C1C;
+    color:#748182;
+    font-family:  'Montserrat', sans-serif;;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* End-Footer */
